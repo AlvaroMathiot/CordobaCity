@@ -13,6 +13,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
     
 }
 .logo{
@@ -188,12 +191,14 @@
     background-color: black;
     height: 60vh;
     color: white;
+    padding-top: 4vh;
     
 }
 .video_youtube{
     position: absolute;
     top: 114%;
     left: 60%;
+    padding-top: 5vh;
     
 }
 .youtube{
